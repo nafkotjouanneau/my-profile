@@ -1,0 +1,145 @@
+body {
+	background-color:white;
+	color:rgb(30, 30, 30, 1.0);
+}
+
+
+h1 { 
+	color:#711DB0;
+	font-family:Arial;
+	font-size:60px;
+	letter-spacing:2px;
+	text-align:center;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	}
+
+h2 {
+	color:antiquewhite;
+	text-align:center;
+}
+p {
+	color:ghostwhite;
+	text-align:center;	
+}
+
+
+#profile {
+	border-radius: 50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header {
+	background: #f1fbef;
+	padding:50px;
+	margin:20px 0px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:15px;
+	text-align: center;
+}
+#header p {
+	margin-bottom: 40px;
+	color: black;
+}
+/*full body*/
+.container {
+	width:700px;
+	margin:40px auto;
+}
+@media (max-width:480px) {
+	.container {
+		width: 380px;
+	}
+}
+@media (max-width:760px) {
+	.container {
+		width: 650px;
+	}
+}
+/*body paragraphs*/
+.card-green {
+	background:#72bf6a;
+	padding:50px;
+	margin:20px 0px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	border-radius:15px;
+}
+
+.btn-beige {
+	background-color: #c19770;
+	color:black;
+	padding:10px 20px 10px;
+	margin-top:20px;
+	border-radius: 7px;
+}
+.btn-red:hover {
+	background-color: #D4A373;
+	color:black;
+}
+/*social media section*/
+#FollowMe {
+	background:saddlebrown;
+	padding:50px;
+	margin:20px 0px;
+	box-shadow:0px 10px 20px rgba(0,0,0,0.1);
+	border-radius:15px;
+}
+#FollowMe h2 {
+	margin-bottom: 25px;
+	color: white;
+}
+#FollowMe p {
+	margin-bottom: 40px;
+	color: white;
+}
+/*social media buttons design*/
+.SM {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.SM li {
+	display: inline;
+	padding: 30px;
+}
+
+.btn-linkedin {
+	background-color:#0077B5;
+	color:white;
+	padding:10px 20px 10px;
+	margin-top:20px;
+	border-radius: 7px;
+	font-weight:bold;
+}
+.btn-linkedin:hover {
+    background: #00A0DC;
+}
+
+.btn-facebook {
+	background-color: #1877f2;
+	color:white;
+	padding:10px 20px 10px;
+	margin-top:20px;
+	border-radius: 7px;
+	font-weight:bold;
+}
+.btn-facebook:hover {
+    background: #3b5998;
+}
+
+.btn-instagram {
+	background: #8134af;
+	color:white;
+	padding:10px 20px 10px;
+	margin-top:20px;
+	border-radius: 7px;
+	font-weight:bold;
+}
+.btn-instagram:hover {
+    background: #dd2a7b;
+}
